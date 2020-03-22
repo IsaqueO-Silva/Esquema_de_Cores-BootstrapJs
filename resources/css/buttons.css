@@ -1,0 +1,24 @@
+.buttons{
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.buttons:hover{
+    cursor: pointer;
+    color: white;
+}
+.btn01{
+    background: #145A32;
+}
+.btn02{
+    background: #0B5345;
+}
+.btn03{
+    background: #E74C3C
+}
+.btn04{
+    background: #0d2679;
+}
+.btn05{
+    background: #F4D03F;
+}

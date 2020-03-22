@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Bootstrap Js-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/buttons.css" />
+    <title>Color Scheme - Esquema de Cores</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header id="header">
+        <container>
+            <div class="row">
+                    <div class="col-6">
+                      <nav class="nav">
+                          <li class="nav-item">
+                              <a class="nav nav-link active h5" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav nav-link h5" href="#">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav nav-link h5" href="#">Services</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav nav-link h5" href="#">About-us</a>
+                          </li>
+                      </nav>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group inputG1">
+                            <input class="form-control" type="text" placeholder="Search..." />
+                            <button class="btn btn-primary">Search</button>
+                        </div>
+                    </div>
+            </div>
+        </container>
+    </header>
+    <!--HEADER-->
+    <!--SECTION-->
+    <section>
+        <container>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-5">Color Scheme - Esquema de cores</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="h5">O esquema de cores tem a finalidade de alterar as cores nativas do site.</p>
+                    <p class="h5">Escolha uma cor abaixo, e veja como funciona.</p>
+                </div>
+            </div>
+        </container>
+        <!--Color Scheme-->
+        <container>
+            <div class="row">
+                <div class="col12">
+                    <div class="input-group colors">
+                        <!--buttons.css-->
+                        <button class="btn btn-lg buttons btn01" onclick="Crusoe()">#145A32</button>
+                        <button class="btn btn-lg buttons btn02" onclick="Cyprus()">#0B5345</button>
+                        <button class="btn btn-lg buttons btn03" onclick="Cinnabar()">#E74C3C</button>
+                        <button class="btn btn-lg buttons btn04" onclick="Sapphire()">#0d2679</button>
+                        <button class="btn btn-lg buttons btn05" onclick="Festival()">#F4D03F</button>
+                        <!--buttons.css-->
+                    </div>
+                </div>
+            </div>
+        </container>
+        <container>
+            <div class="row">
+                <div class='col-12'>
+                    <br /><p class="lead">Ou...</p>
+                    <p class="lead">Informe uma cor desejada no formato <mark><u>hexadecimal</u></mark></p>
+                    <div class="input-group inputG2">
+                        <input id="cor" class="form-control" type="text" placeholder="#000000" maxlength="7"/>
+                        <button class="btn btn-success" onclick="Alterar()"><span class="h6">Alterar</span></button>
+                    </div>
+                </div>
+            </div>
+        </container>
+    </section>
+    <!--SECTION-->
+    <!--FOOTER-->
+    <footer id="footer">
+        <container>
+            <div class="row">
+                <div class="col-12">
+                    <p class="lead h5"><em>&copy; Copyright - 2020</em></p>
+                </div>
+            </div>
+        </container>
+    </footer>
+    <!--FOOTER-->
+    <script src="resources/js/script.js"></script>
+</body>
+</html>
